@@ -1,0 +1,26 @@
+{
+    "name": "vanluuit/modules",
+    "description": "build modules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huynh van luu",
+            "email": "vanluujonny@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\Modules\\": "app/Modules"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Modules\\ServiceProvider"
+            ]
+        }
+    }
+}
